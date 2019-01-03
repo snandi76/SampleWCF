@@ -8,9 +8,9 @@ using System.Text;
 namespace HelloServiceWCF
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "HelloService" in both code and config file together.
-    public class HelloService : IHelloService
+    public class HelloService : IHelloServiceChanged
     {
-        public string GetName(string name)
+        public string GetNameWithHello(string name)
         {
             return "Hello" + name;
         }
